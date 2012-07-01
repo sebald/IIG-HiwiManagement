@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/iig/';
+$config['base_url']	= '';
 
 /*
 |--------------------------------------------------------------------------
@@ -363,7 +363,7 @@ $config['proxy_ips'] = '';
 | Admin PWD
 |--------------------------------------------------------------------------
 */
-$config['admin_pwd'] = 'telematik';
+$config['admin_pwd'] = '';
 
 
 /* End of file config.php */
