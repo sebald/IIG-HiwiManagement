@@ -109,6 +109,7 @@ class Hiwi extends CI_Model {
 			foreach ($contracts as $contract) {
 				$d1 = new DateTime($contract->start);
 				$d2 = new DateTime($contract->end);
+				$data['sum_hours'] += ($contract->hours * $d1->diff($d2)->y)*12*60;
 				$data['sum_hours'] += ($contract->hours * $d1->diff($d2)->m)*60;
 			}
 			
